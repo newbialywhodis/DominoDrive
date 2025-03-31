@@ -39,7 +39,7 @@ export function GraduatesSection() {
         {graduate.testimonial && (
           <Box>
             <Text size="sm" fs="italic" c="gray" mt="xs">
-              "{graduate.testimonial}"
+              &quot;{graduate.testimonial}&quot;
             </Text>
           </Box>
         )}
